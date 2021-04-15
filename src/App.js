@@ -1,29 +1,15 @@
 import React from "react";
-
-const viewHeight = 500;
-const viewWidth = 500;
+import { csv } from "d3-fetch";
 
 const App = () => {
+  csv(
+    "https://raw.githubusercontent.com/annie2980/info474-annie2980/main/world-happiness-report-2021.csv"
+  ).then((data) => console.log(data));
+  
   return (
-    <svg
-      style={{
-        border: "1px solid lightgrey",
-        width: viewWidth,
-        height: viewHeight,
-      }}
-    >
-      <circle cx={20} cy={20} r="5" />
-      <rect x={200} y={200} width={10} height={10} fill="rgb(230,230,230)" />
-      <rect x={212} y={200} width={10} height={10} fill="rgb(230,230,230)" />
-      <rect x={224} y={200} width={10} height={10} fill="rgb(230,230,230)" />
-      <rect x={236} y={200} width={10} height={10} fill="rgb(230,230,230)" />
-      <rect x={248} y={200} width={10} height={10} />
-      <line x1={20} y1={viewHeight - 20} x2={150} y2={100} stroke="black" />
-      {/* the italics and font styling doesn't work */}
-      <text x="20" y="35" style={{ font: "italic 16px" }}> 
-        Price history of 100 randomly selected Pokemon cards
-      </text>
-    </svg>
+    <div>
+      <h1>Exploratory Data Analysis, Assignment 2, INFO 474 SP 2021</h1>
+    </div>
   );
 };
 export default App;
