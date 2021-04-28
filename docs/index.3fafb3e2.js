@@ -26348,7 +26348,7 @@ try {
           lineNumber: 70,
           columnNumber: 7
         }
-      }, "Introduction"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+      }, "Introduction and Lessons Learned"), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
@@ -26363,7 +26363,15 @@ try {
           lineNumber: 71,
           columnNumber: 50
         }
-      }, "2021 World Happiness Report"), ", where happiness score is explained by 6 factors: economic production, social support, life expectancy, freedom, trust in government, and generosity. The dataset provides scores for happiness and the 6 factors for 149 countries. In the previous analysis of the dataset, I found that the North America and ANZ (Australia and New Zealand) region had the highest average happiness score while the South Asia region had the lowest average happiness score, so the questions I want to address are:"), /*#__PURE__*/_reactDefault.default.createElement("ol", {
+      }, "2021 World Happiness Report"), ", where the happiness score is explained by 6 factors: economic production, social support, life expectancy, freedom, trust in government, and generosity. The dataset provides scores for happiness and the 6 factors for 149 countries. For the analysis of the dataset, I wanted to focus on happiness, life expectancy, and social support scores, and explore the relationship between happiness and the 2 factors. While happiness scores are explained by the 6 factors and scored from 0 to 10, life expectancy is based on data from the World Health Organization and social support is the national average of the binary response (0 for no, 1 for yes) to the question, \"If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?\" (", /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "https://worldhappiness.report/ed/2020/social-environments-for-world-happiness/",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71,
+          columnNumber: 939
+        }
+      }, "World Happiness Report"), "). In the previous analysis of the dataset, I found that the North America and ANZ (Australia and New Zealand) region had the highest average happiness score while the South Asia region had the lowest average happiness score, so the questions I wanted to address are:"), /*#__PURE__*/_reactDefault.default.createElement("ol", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
@@ -26377,32 +26385,39 @@ try {
           lineNumber: 74,
           columnNumber: 9
         }
-      }, "What are the distributions of happiness scores, life expectancy, and GDP per capita for all countries?"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+      }, "What are the distributions of happiness scores, life expectancy, and social support for all countries?"), /*#__PURE__*/_reactDefault.default.createElement("li", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 75,
           columnNumber: 9
         }
-      }, "How do the distributions of happiness scores, life expectancy, and GDP per capita for the North America and ANZ region compare to the distributions for all countries?"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+      }, "How do the distributions of happiness scores, life expectancy, and social support for the North America and ANZ region compare to the distributions for the rest of the countries?"), /*#__PURE__*/_reactDefault.default.createElement("li", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 76,
           columnNumber: 9
         }
-      }, "How do the distributions of happiness scores, life expectancy, and GDP per capita for the South Asia region compare to the distributsion for all countries?")), /*#__PURE__*/_reactDefault.default.createElement("p", {
+      }, "How do the distributions of happiness scores, life expectancy, and social support for the South Asia region compare to the distribution for the rest of the countries?")), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79,
           columnNumber: 7
         }
-      }), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "The analysis process I used first involved exploring the data and doing research on how the data was collected. This included understanding where the life expectancy data came from and how the social support factor was measured. After the research, I narrowed down the scope of the dataset based on personal interest and decided what questions I wanted to answer with the visualizations. This is where I decided to focus on the happiness scores and the life expectancy and social support factors. My next step was to plan out the visualizations I wanted to create in order to answer the questions I came up with. Lastly, I created the visualizations, using 3 visualizations to address each of the questions. The primary data transformation I used was filtering the data based on the region and attribute I wanted to focus on."), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 81,
+          columnNumber: 7
+        }
+      }, "One of the lessons I learned was the importance of conducting research on the dataset and understanding where the data comes from. This was useful for the process of analyzing data and drawing conclusions from the visualizations because it helped to make sense of what the numbers meant. Another lesson I learned was the importance of looking at the size of the data. For example, there are only 4 countries in the North America and ANZ region so it is more difficult to draw conclusions on whether happiness scores are related to life expectancy and social support. For further analysis of the dataset, it may be helpful to group the North America and ANZ region with the Western Europe region, which had the second-highest average happiness score. Finally, another lesson I learned was to ask critical questions when looking at visualizations. For example, when I was looking at the distribution of scores in the South Asia region, I had to consider factors such as the possibility of outliers when trying to draw conclusions from the visualizations."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83,
           columnNumber: 7
         }
       }, "Distribution of Happiness Scores for All Countries"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26414,7 +26429,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 84,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26428,7 +26443,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 85,
           columnNumber: 9
         }
       }, "2.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26442,7 +26457,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 94,
           columnNumber: 9
         }
       }, "7.8"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26454,7 +26469,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 103,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26466,7 +26481,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109,
+          lineNumber: 111,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26482,16 +26497,23 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 119,
+              lineNumber: 121,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132,
+          lineNumber: 133,
+          columnNumber: 7
+        }
+      }, "This barcode plot shows the distribution of happiness scores for all countries. The maximum and minimum happiness scores are 7.8 and 2.5, respectively. The distribution is relatively even with the majority of the scores residing near the middle of the distribution."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135,
           columnNumber: 7
         }
       }, "Distribution of Life Expectancy for All Countries"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26503,7 +26525,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 136,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26517,7 +26539,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 137,
           columnNumber: 9
         }
       }, "48.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26531,7 +26553,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143,
+          lineNumber: 146,
           columnNumber: 9
         }
       }, "77"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26543,7 +26565,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152,
+          lineNumber: 155,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26555,7 +26577,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160,
+          lineNumber: 163,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26571,19 +26593,26 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 170,
+              lineNumber: 173,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 183,
+          lineNumber: 185,
           columnNumber: 7
         }
-      }, "Distribution of GDP per Capita for All Countries"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
+      }, "This barcode plot shows the distribution of life expectancy for all countries. The maximum and minimum life expectancy ages are 77 and 48.5, respectively. The majority of distribution is at the top half of the distribution, which shows that most of the countries' life expectancy is closer to the maximum than the minimum age."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 187,
+          columnNumber: 7
+        }
+      }, "Distribution of Social Support Scores for All Countries"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
         width: size,
         height: size,
         style: {
@@ -26592,13 +26621,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184,
+          lineNumber: 188,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
-        y: size - 182,
+        y: size - 179,
         style: {
           fontSize: 10,
           fontFamily: "Gill Sans, san serif"
@@ -26606,13 +26635,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 185,
+          lineNumber: 189,
           columnNumber: 9
         }
-      }, "6.6"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+      }, "0.46"), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
-        y: margin + 171,
+        y: margin + 119,
         style: {
           fontSize: 10,
           fontFamily: "Gill Sans, san serif"
@@ -26620,31 +26649,31 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194,
+          lineNumber: 198,
           columnNumber: 9
         }
-      }, "11.6"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+      }, "0.98"), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: size / 2 - 18,
-        y1: size - 185,
+        y1: size - 182,
         x2: size / 2 - 13,
-        y2: size - 185,
+        y2: size - 182,
         stroke: "black",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203,
+          lineNumber: 207,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: size / 2 - 18,
-        y1: margin + 168,
+        y1: margin + 116,
         x2: size / 2 - 13,
-        y2: margin + 168,
+        y2: margin + 116,
         stroke: "black",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 211,
+          lineNumber: 215,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26652,24 +26681,31 @@ try {
           /*#__PURE__*/_reactDefault.default.createElement("line", {
             key: index,
             x1: size / 2,
-            y1: size - margin - measurement["Logged GDP per capita"] * 25,
+            y1: size - margin - measurement["Social support"] * 350,
             x2: size / 2 + 20,
-            y2: size - margin - measurement["Logged GDP per capita"] * 25,
+            y2: size - margin - measurement["Social support"] * 350,
             stroke: "steelblue",
             strokeOpacity: "0.6",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 221,
+              lineNumber: 225,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234,
+          lineNumber: 237,
+          columnNumber: 7
+        }
+      }, "This barcode plot shows the distribution of social support scores for all countries. The maximum and minimum values are 0.98 and 0.46, respectively. The visualization shows that the majority of people in most of the countries answered yes to the question \"If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?\""), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 239,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Happiness Scores in North America and ANZ"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26681,7 +26717,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235,
+          lineNumber: 240,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26695,7 +26731,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236,
+          lineNumber: 241,
           columnNumber: 7
         }
       }, "2.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26709,7 +26745,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245,
+          lineNumber: 250,
           columnNumber: 9
         }
       }, "7.8"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26721,7 +26757,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 254,
+          lineNumber: 259,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26733,33 +26769,51 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 262,
+          lineNumber: 267,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
         const highlight = measurement["Regional indicator"] === "North America and ANZ";
+        // return (
+        // <line
+        // key={index}
+        // x1={size / 2}
+        // y1={size - margin - measurement["Ladder score"] * 50}
+        // x2={size / 2 + 20}
+        // y2={size - margin - measurement["Ladder score"] * 50}
+        // stroke={highlight ? "red" : "steelblue"}
+        // strokeOpacity={highlight ? 0.9 : 0.4}
+        // />
+        // );
         return (
-          /*#__PURE__*/_reactDefault.default.createElement("line", {
+          /*#__PURE__*/_reactDefault.default.createElement("circle", {
             key: index,
-            x1: size / 2,
-            y1: size - margin - measurement["Ladder score"] * 50,
-            x2: size / 2 + 20,
-            y2: size - margin - measurement["Ladder score"] * 50,
+            cx: highlight ? size / 2 + 20 : size / 2,
+            cy: size - margin - measurement["Ladder score"] * 50,
+            r: "3",
+            fill: "none",
             stroke: highlight ? "red" : "steelblue",
-            strokeOpacity: highlight ? 0.9 : 0.4,
+            strokeOpacity: "0.5",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 273,
+              lineNumber: 289,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 286,
+          lineNumber: 301,
+          columnNumber: 7
+        }
+      }, "This plot extracts the happiness scores for countries in the North America and ANZ region and compares them to the distribution of happiness scores for the rest of the countries. As expected, the happiness scores for countries in the North America and ANZ region are near the top of the distribution. The four countries within the North America and ANZ region have very similar happiness scores."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 303,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Life Expectancy in North America and ANZ"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26771,7 +26825,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 287,
+          lineNumber: 304,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26785,7 +26839,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 288,
+          lineNumber: 305,
           columnNumber: 9
         }
       }, "48.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26799,7 +26853,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 297,
+          lineNumber: 314,
           columnNumber: 9
         }
       }, "77"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26811,7 +26865,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 306,
+          lineNumber: 323,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26823,36 +26877,54 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 314,
+          lineNumber: 331,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
         const highlight = measurement["Regional indicator"] === "North America and ANZ";
+        // return (
+        // <line
+        // key={index}
+        // x1={size / 2}
+        // y1={size - margin - measurement["Healthy life expectancy"] * 5}
+        // x2={size / 2 + 20}
+        // y2={size - margin - measurement["Healthy life expectancy"] * 5}
+        // stroke={highlight ? "red" : "steelblue"}
+        // strokeOpacity={highlight ? 1 : 0.25}
+        // />
+        // );
         return (
-          /*#__PURE__*/_reactDefault.default.createElement("line", {
+          /*#__PURE__*/_reactDefault.default.createElement("circle", {
             key: index,
-            x1: size / 2,
-            y1: size - margin - measurement["Healthy life expectancy"] * 5,
-            x2: size / 2 + 20,
-            y2: size - margin - measurement["Healthy life expectancy"] * 5,
+            cx: highlight ? size / 2 + 20 : size / 2,
+            cy: size - margin - measurement["Healthy life expectancy"] * 5,
+            r: "3",
+            fill: "none",
             stroke: highlight ? "red" : "steelblue",
-            strokeOpacity: highlight ? 1 : 0.25,
+            strokeOpacity: "0.5",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 325,
+              lineNumber: 353,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 338,
+          lineNumber: 365,
           columnNumber: 7
         }
-      }, "Highlighting the Distribution of GDP per Capita in North America and ANZ"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
+      }, "This plot extracts the life expectancies for countries in the North America and ANZ region and compares them to the distribution of life expectancy for the rest of the countries. Similar to the last plot, the life expectancies for countries in the North America and ANZ region are near the top of the distribution."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 367,
+          columnNumber: 7
+        }
+      }, "Highlighting the Distribution of Social Support Scores in North America and ANZ"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
         width: size,
         height: size,
         style: {
@@ -26861,13 +26933,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 339,
+          lineNumber: 368,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
-        y: size - 182,
+        y: size - 179,
         style: {
           fontSize: 10,
           fontFamily: "Gill Sans, san serif"
@@ -26875,13 +26947,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 340,
+          lineNumber: 369,
           columnNumber: 9
         }
-      }, "6.6"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+      }, "0.46"), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
-        y: margin + 171,
+        y: margin + 119,
         style: {
           fontSize: 10,
           fontFamily: "Gill Sans, san serif"
@@ -26889,57 +26961,75 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 349,
+          lineNumber: 378,
           columnNumber: 9
         }
-      }, "11.6"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+      }, "0.98"), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: size / 2 - 18,
-        y1: size - 185,
+        y1: size - 182,
         x2: size / 2 - 13,
-        y2: size - 185,
+        y2: size - 182,
         stroke: "black",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 358,
+          lineNumber: 387,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: size / 2 - 18,
-        y1: margin + 168,
+        y1: margin + 116,
         x2: size / 2 - 13,
-        y2: margin + 168,
+        y2: margin + 116,
         stroke: "black",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 366,
+          lineNumber: 395,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
         const highlight = measurement["Regional indicator"] === "North America and ANZ";
+        // return (
+        // <line
+        // key={index}
+        // x1={size / 2}
+        // y1={size - margin - measurement["Logged GDP per capita"] * 25}
+        // x2={size / 2 + 20}
+        // y2={size - margin - measurement["Logged GDP per capita"] * 25}
+        // stroke={highlight ? "red" : "steelblue"}
+        // strokeOpacity={highlight ? 0.9 : 0.3}
+        // />
+        // );
         return (
-          /*#__PURE__*/_reactDefault.default.createElement("line", {
+          /*#__PURE__*/_reactDefault.default.createElement("circle", {
             key: index,
-            x1: size / 2,
-            y1: size - margin - measurement["Logged GDP per capita"] * 25,
-            x2: size / 2 + 20,
-            y2: size - margin - measurement["Logged GDP per capita"] * 25,
+            cx: highlight ? size / 2 + 20 : size / 2,
+            cy: size - margin - measurement["Social support"] * 350,
+            r: "3",
+            fill: "none",
             stroke: highlight ? "red" : "steelblue",
-            strokeOpacity: highlight ? 0.9 : 0.3,
+            strokeOpacity: "0.5",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 377,
+              lineNumber: 417,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 390,
+          lineNumber: 429,
+          columnNumber: 7
+        }
+      }, "This plot extracts the social support scores for countries in the North America and ANZ region and compares them to the distribution of social support scores for the rest of the countries. Similar to the last two plots, the social support scores for countries in the North America and ANZ region are near the top of the distribution. This suggests that the relatively high happiness score for the region could be explained by its higher life expectancy and social support scores."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 431,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Happiness Scores in South Asia"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26951,7 +27041,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 391,
+          lineNumber: 432,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26965,7 +27055,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 392,
+          lineNumber: 433,
           columnNumber: 7
         }
       }, "2.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26979,7 +27069,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 401,
+          lineNumber: 442,
           columnNumber: 9
         }
       }, "7.8"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26991,7 +27081,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 410,
+          lineNumber: 451,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27003,33 +27093,51 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 418,
+          lineNumber: 459,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
         const highlight = measurement["Regional indicator"] === "South Asia";
+        // return (
+        // <line
+        // key={index}
+        // x1={size / 2}
+        // y1={size - margin - measurement["Ladder score"] * 50}
+        // x2={size / 2 + 20}
+        // y2={size - margin - measurement["Ladder score"] * 50}
+        // stroke={highlight ? "red" : "steelblue"}
+        // strokeOpacity={highlight ? 0.9 : 0.4}
+        // />
+        // );
         return (
-          /*#__PURE__*/_reactDefault.default.createElement("line", {
+          /*#__PURE__*/_reactDefault.default.createElement("circle", {
             key: index,
-            x1: size / 2,
-            y1: size - margin - measurement["Ladder score"] * 50,
-            x2: size / 2 + 20,
-            y2: size - margin - measurement["Ladder score"] * 50,
+            cx: highlight ? size / 2 + 20 : size / 2,
+            cy: size - margin - measurement["Ladder score"] * 50,
+            r: "3",
+            fill: "none",
             stroke: highlight ? "red" : "steelblue",
-            strokeOpacity: highlight ? 0.9 : 0.4,
+            strokeOpacity: "0.5",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 429,
+              lineNumber: 481,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 442,
+          lineNumber: 493,
+          columnNumber: 7
+        }
+      }, "This plot extracts the happiness scores for countries in the South Asia region and compares them to the distribution of happiness scores for the rest of the countries. Unlike the distribution of happiness scores for the North American and ANZ region, these happiness scores are more spread out. It is possible that the country with the score of 2.5 is an outlier and is the reason why the South Asia region had the lowest average happiness scores."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 495,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Life Expectancy in South Asia"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -27041,7 +27149,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 443,
+          lineNumber: 496,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -27055,7 +27163,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 444,
+          lineNumber: 497,
           columnNumber: 9
         }
       }, "48.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -27069,7 +27177,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 453,
+          lineNumber: 506,
           columnNumber: 9
         }
       }, "77"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27081,7 +27189,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 462,
+          lineNumber: 515,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27093,36 +27201,54 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 470,
+          lineNumber: 523,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
         const highlight = measurement["Regional indicator"] === "South Asia";
+        // return (
+        // <line
+        // key={index}
+        // x1={size / 2}
+        // y1={size - margin - measurement["Healthy life expectancy"] * 5}
+        // x2={size / 2 + 20}
+        // y2={size - margin - measurement["Healthy life expectancy"] * 5}
+        // stroke={highlight ? "red" : "steelblue"}
+        // strokeOpacity={highlight ? 1 : 0.25}
+        // />
+        // );
         return (
-          /*#__PURE__*/_reactDefault.default.createElement("line", {
+          /*#__PURE__*/_reactDefault.default.createElement("circle", {
             key: index,
-            x1: size / 2,
-            y1: size - margin - measurement["Healthy life expectancy"] * 5,
-            x2: size / 2 + 20,
-            y2: size - margin - measurement["Healthy life expectancy"] * 5,
+            cx: highlight ? size / 2 + 20 : size / 2,
+            cy: size - margin - measurement["Healthy life expectancy"] * 5,
+            r: "3",
+            fill: "none",
             stroke: highlight ? "red" : "steelblue",
-            strokeOpacity: highlight ? 1 : 0.25,
+            strokeOpacity: "0.5",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 481,
+              lineNumber: 545,
               columnNumber: 13
             }
           })
         );
-      })), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 494,
+          lineNumber: 557,
           columnNumber: 7
         }
-      }, "Highlighting the Distribution of GDP per Capita in South Asia"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
+      }, "This plot extracts the life expectancies for countries in the South Asia region and compares them to the distribution of life expectancy for the rest of the countries. Similar to the last plot, the distribution of life expectancy for the region is spread out. This could mean that for countries in the South Asia region, life expectancy does not necessarily relate to the overall happiness of the country."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 559,
+          columnNumber: 7
+        }
+      }, "Highlighting the Distribution of Social Support Scores in South Asia"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
         width: size,
         height: size,
         style: {
@@ -27131,13 +27257,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 495,
+          lineNumber: 560,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
-        y: size - 182,
+        y: size - 179,
         style: {
           fontSize: 10,
           fontFamily: "Gill Sans, san serif"
@@ -27145,13 +27271,13 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 496,
+          lineNumber: 561,
           columnNumber: 9
         }
-      }, "6.6"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+      }, "0.46"), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
-        y: margin + 171,
+        y: margin + 119,
         style: {
           fontSize: 10,
           fontFamily: "Gill Sans, san serif"
@@ -27159,53 +27285,71 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 505,
+          lineNumber: 570,
           columnNumber: 9
         }
-      }, "11.6"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+      }, "0.98"), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: size / 2 - 18,
-        y1: size - 185,
+        y1: size - 182,
         x2: size / 2 - 13,
-        y2: size - 185,
+        y2: size - 182,
         stroke: "black",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 514,
+          lineNumber: 579,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: size / 2 - 18,
-        y1: margin + 168,
+        y1: margin + 116,
         x2: size / 2 - 13,
-        y2: margin + 168,
+        y2: margin + 116,
         stroke: "black",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 522,
+          lineNumber: 587,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
         const highlight = measurement["Regional indicator"] === "South Asia";
+        // return (
+        // <line
+        // key={index}
+        // x1={size / 2}
+        // y1={size - margin - measurement["Logged GDP per capita"] * 25}
+        // x2={size / 2 + 20}
+        // y2={size - margin - measurement["Logged GDP per capita"] * 25}
+        // stroke={highlight ? "red" : "steelblue"}
+        // strokeOpacity={highlight ? 0.9 : 0.3}
+        // />
+        // );
         return (
-          /*#__PURE__*/_reactDefault.default.createElement("line", {
+          /*#__PURE__*/_reactDefault.default.createElement("circle", {
             key: index,
-            x1: size / 2,
-            y1: size - margin - measurement["Logged GDP per capita"] * 25,
-            x2: size / 2 + 20,
-            y2: size - margin - measurement["Logged GDP per capita"] * 25,
+            cx: highlight ? size / 2 + 20 : size / 2,
+            cy: size - margin - measurement["Social support"] * 350,
+            r: "3",
+            fill: "none",
             stroke: highlight ? "red" : "steelblue",
-            strokeOpacity: highlight ? 0.9 : 0.3,
+            strokeOpacity: "0.5",
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 533,
+              lineNumber: 609,
               columnNumber: 13
             }
           })
         );
-      })))
+      })), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 621,
+          columnNumber: 7
+        }
+      }, "This plot extracts the social support scores for countries in the South Asia region and compares them to the distribution of social support scores for the rest of the countries. Once again, the distribution of social support scores is spread out. Like the last plot, this could mean that the happiness of countries in South Asia is not strongly explained by the social support factor."))
     );
   };
   _s(App, "Jm65JCcgUFoenM4DufkEA80vRVI=", false, function () {
