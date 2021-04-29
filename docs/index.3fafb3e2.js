@@ -26348,7 +26348,7 @@ try {
           lineNumber: 70,
           columnNumber: 7
         }
-      }, "Introduction and Lessons Learned"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+      }, "Introduction"), /*#__PURE__*/_reactDefault.default.createElement("p", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
@@ -26399,25 +26399,18 @@ try {
           lineNumber: 76,
           columnNumber: 9
         }
-      }, "How do the distributions of happiness scores, life expectancy, and social support for the South Asia region compare to the distribution for the rest of the countries?")), /*#__PURE__*/_reactDefault.default.createElement("p", {
+      }, "How do the distributions of happiness scores, life expectancy, and social support for the South Asia region compare to the distribution for the rest of the countries?")), /*#__PURE__*/_reactDefault.default.createElement("h2", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79,
           columnNumber: 7
         }
-      }, "The analysis process I used first involved exploring the data and doing research on how the data was collected. This included understanding where the life expectancy data came from and how the social support factor was measured. After the research, I narrowed down the scope of the dataset based on personal interest and decided what questions I wanted to answer with the visualizations. This is where I decided to focus on the happiness scores and the life expectancy and social support factors. My next step was to plan out the visualizations I wanted to create in order to answer the questions I came up with. Lastly, I created the visualizations, using 3 visualizations to address each of the questions. The primary data transformation I used was filtering the data based on the region and attribute I wanted to focus on."), /*#__PURE__*/_reactDefault.default.createElement("p", {
+      }, "1. What are the distributions of happiness scores, life expectancy, and social support for all countries?"), /*#__PURE__*/_reactDefault.default.createElement("h3", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
-          columnNumber: 7
-        }
-      }, "One of the lessons I learned was the importance of conducting research on the dataset and understanding where the data comes from. This was useful for the process of analyzing data and drawing conclusions from the visualizations because it helped to make sense of what the numbers meant. Another lesson I learned was the importance of looking at the size of the data. For example, there are only 4 countries in the North America and ANZ region so it is more difficult to draw conclusions on whether happiness scores are related to life expectancy and social support. For further analysis of the dataset, it may be helpful to group the North America and ANZ region with the Western Europe region, which had the second-highest average happiness score. Finally, another lesson I learned was to ask critical questions when looking at visualizations. For example, when I was looking at the distribution of scores in the South Asia region, I had to consider factors such as the possibility of outliers when trying to draw conclusions from the visualizations."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 80,
           columnNumber: 7
         }
       }, "Distribution of Happiness Scores for All Countries"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26429,7 +26422,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 81,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26443,7 +26436,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
+          lineNumber: 82,
           columnNumber: 9
         }
       }, "2.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26457,7 +26450,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94,
+          lineNumber: 91,
           columnNumber: 9
         }
       }, "7.8"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26469,7 +26462,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103,
+          lineNumber: 100,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26481,7 +26474,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 108,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26497,7 +26490,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 121,
+              lineNumber: 118,
               columnNumber: 13
             }
           })
@@ -26506,14 +26499,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 130,
           columnNumber: 7
         }
-      }, "This barcode plot shows the distribution of happiness scores for all countries. The maximum and minimum happiness scores are 7.8 and 2.5, respectively. The distribution is relatively even with the majority of the scores residing near the middle of the distribution."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "This barcode plot shows the distribution of happiness scores for all countries. The maximum and minimum happiness scores are 7.8 and 2.5, respectively. The distribution is relatively even with the majority of the scores residing near the middle of the distribution."), /*#__PURE__*/_reactDefault.default.createElement("h3", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 132,
           columnNumber: 7
         }
       }, "Distribution of Life Expectancy for All Countries"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26525,7 +26518,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136,
+          lineNumber: 133,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26539,10 +26532,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137,
+          lineNumber: 134,
           columnNumber: 9
         }
-      }, "48.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+      }, "49"), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
         y: margin + 78,
@@ -26553,7 +26546,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 143,
           columnNumber: 9
         }
       }, "77"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26565,7 +26558,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155,
+          lineNumber: 152,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26577,7 +26570,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163,
+          lineNumber: 160,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26593,7 +26586,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 173,
+              lineNumber: 170,
               columnNumber: 13
             }
           })
@@ -26602,14 +26595,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 185,
+          lineNumber: 182,
           columnNumber: 7
         }
-      }, "This barcode plot shows the distribution of life expectancy for all countries. The maximum and minimum life expectancy ages are 77 and 48.5, respectively. The majority of distribution is at the top half of the distribution, which shows that most of the countries' life expectancy is closer to the maximum than the minimum age."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "This barcode plot shows the distribution of life expectancy for all countries. The maximum and minimum life expectancy ages are 77 and 49, respectively. The majority of distribution is at the top half of the distribution, which shows that most of the countries' life expectancy is closer to the maximum than the minimum age."), /*#__PURE__*/_reactDefault.default.createElement("h3", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187,
+          lineNumber: 184,
           columnNumber: 7
         }
       }, "Distribution of Social Support Scores for All Countries"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26621,7 +26614,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188,
+          lineNumber: 185,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26635,7 +26628,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189,
+          lineNumber: 186,
           columnNumber: 9
         }
       }, "0.46"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26649,7 +26642,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 198,
+          lineNumber: 195,
           columnNumber: 9
         }
       }, "0.98"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26661,7 +26654,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 207,
+          lineNumber: 204,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26673,7 +26666,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215,
+          lineNumber: 212,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26689,7 +26682,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 225,
+              lineNumber: 222,
               columnNumber: 13
             }
           })
@@ -26698,14 +26691,21 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 237,
+          lineNumber: 234,
           columnNumber: 7
         }
       }, "This barcode plot shows the distribution of social support scores for all countries. The maximum and minimum values are 0.98 and 0.46, respectively. The visualization shows that the majority of people in most of the countries answered yes to the question \"If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?\""), /*#__PURE__*/_reactDefault.default.createElement("h2", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 239,
+          lineNumber: 236,
+          columnNumber: 7
+        }
+      }, "2. How do the distributions of happiness scores, life expectancy, and social support for the North America and ANZ region compare to the distributions for the rest of the countries?"), /*#__PURE__*/_reactDefault.default.createElement("h3", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 237,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Happiness Scores in North America and ANZ"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26717,7 +26717,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240,
+          lineNumber: 238,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26731,8 +26731,8 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241,
-          columnNumber: 7
+          lineNumber: 239,
+          columnNumber: 9
         }
       }, "2.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
@@ -26745,7 +26745,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 250,
+          lineNumber: 248,
           columnNumber: 9
         }
       }, "7.8"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26757,7 +26757,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 259,
+          lineNumber: 257,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26769,7 +26769,59 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 267,
+          lineNumber: 265,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 50,
+        textAnchor: "end",
+        y: size - 364,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 273,
+          columnNumber: 9
+        }
+      }, "7.0"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 50,
+        textAnchor: "end",
+        y: margin + 99,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 282,
+          columnNumber: 9
+        }
+      }, "7.3"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: size - 367,
+        x2: size / 2 + 35,
+        y2: size - 367,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 291,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: margin + 96,
+        x2: size / 2 + 35,
+        y2: margin + 96,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 299,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26797,7 +26849,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 289,
+              lineNumber: 321,
               columnNumber: 13
             }
           })
@@ -26806,14 +26858,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 301,
+          lineNumber: 333,
           columnNumber: 7
         }
-      }, "This plot extracts the happiness scores for countries in the North America and ANZ region and compares them to the distribution of happiness scores for the rest of the countries. As expected, the happiness scores for countries in the North America and ANZ region are near the top of the distribution. The four countries within the North America and ANZ region have very similar happiness scores."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "This plot extracts the happiness scores for countries in the North America and ANZ region and compares them to the distribution of happiness scores for the rest of the countries. The maximum and minimum values for the North America and ANZ region are 7.3 and 7.0, respectively. As expected, the happiness scores for countries in the North America and ANZ region are near the top of the distribution. The four countries within the North America and ANZ region have very similar happiness scores."), /*#__PURE__*/_reactDefault.default.createElement("h3", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 303,
+          lineNumber: 335,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Life Expectancy in North America and ANZ"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26825,7 +26877,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304,
+          lineNumber: 336,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26839,10 +26891,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 305,
+          lineNumber: 337,
           columnNumber: 9
         }
-      }, "48.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+      }, "49"), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
         y: margin + 78,
@@ -26853,7 +26905,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 314,
+          lineNumber: 346,
           columnNumber: 9
         }
       }, "77"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26865,7 +26917,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 323,
+          lineNumber: 355,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26877,7 +26929,59 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 331,
+          lineNumber: 363,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 48,
+        textAnchor: "end",
+        y: size - 358,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 371,
+          columnNumber: 9
+        }
+      }, "68"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 48,
+        textAnchor: "end",
+        y: margin + 93,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 380,
+          columnNumber: 9
+        }
+      }, "74"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: size - 361,
+        x2: size / 2 + 35,
+        y2: size - 361,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 389,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: margin + 90,
+        x2: size / 2 + 35,
+        y2: margin + 90,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 397,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -26905,7 +27009,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 353,
+              lineNumber: 419,
               columnNumber: 13
             }
           })
@@ -26914,14 +27018,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 365,
+          lineNumber: 431,
           columnNumber: 7
         }
-      }, "This plot extracts the life expectancies for countries in the North America and ANZ region and compares them to the distribution of life expectancy for the rest of the countries. Similar to the last plot, the life expectancies for countries in the North America and ANZ region are near the top of the distribution."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "This plot extracts the life expectancies for countries in the North America and ANZ region and compares them to the distribution of life expectancy for the rest of the countries. The maximum and minimum values for the North America and ANZ region are 74 and 68, respectively. Similar to the last plot, the life expectancies for countries in the North America and ANZ region are near the top of the distribution."), /*#__PURE__*/_reactDefault.default.createElement("h3", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 367,
+          lineNumber: 433,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Social Support Scores in North America and ANZ"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -26933,7 +27037,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 368,
+          lineNumber: 434,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26947,7 +27051,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 369,
+          lineNumber: 435,
           columnNumber: 9
         }
       }, "0.46"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -26961,7 +27065,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 378,
+          lineNumber: 444,
           columnNumber: 9
         }
       }, "0.98"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26973,7 +27077,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 387,
+          lineNumber: 453,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -26985,7 +27089,59 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 395,
+          lineNumber: 461,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 55,
+        textAnchor: "end",
+        y: size - 339,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 469,
+          columnNumber: 9
+        }
+      }, "0.92"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 55,
+        textAnchor: "end",
+        y: margin + 130,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 478,
+          columnNumber: 9
+        }
+      }, "0.95"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: size - 342,
+        x2: size / 2 + 35,
+        y2: size - 342,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 487,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: margin + 127,
+        x2: size / 2 + 35,
+        y2: margin + 127,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 495,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -27013,7 +27169,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 417,
+              lineNumber: 517,
               columnNumber: 13
             }
           })
@@ -27022,14 +27178,21 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 429,
+          lineNumber: 529,
           columnNumber: 7
         }
-      }, "This plot extracts the social support scores for countries in the North America and ANZ region and compares them to the distribution of social support scores for the rest of the countries. Similar to the last two plots, the social support scores for countries in the North America and ANZ region are near the top of the distribution. This suggests that the relatively high happiness score for the region could be explained by its higher life expectancy and social support scores."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "This plot extracts the social support scores for countries in the North America and ANZ region and compares them to the distribution of social support scores for the rest of the countries. The maximum and minimum values for the North America and ANZ region are 0.95 and 0.92, respectively. Similar to the last two plots, the social support scores for countries in the North America and ANZ region are near the top of the distribution. This suggests that the relatively high happiness score for the region could be explained by its higher life expectancy and social support scores."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 431,
+          lineNumber: 531,
+          columnNumber: 7
+        }
+      }, "3. How do the distributions of happiness scores, life expectancy, and social support for the South Asia region compare to the distribution for the rest of the countries?"), /*#__PURE__*/_reactDefault.default.createElement("h3", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 532,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Happiness Scores in South Asia"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -27041,7 +27204,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 432,
+          lineNumber: 533,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -27055,7 +27218,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 433,
+          lineNumber: 534,
           columnNumber: 7
         }
       }, "2.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -27069,10 +27232,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 442,
+          lineNumber: 543,
           columnNumber: 9
         }
-      }, "7.8"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+      }, "7.3"), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: size / 2 - 18,
         y1: size - 146,
         x2: size / 2 - 13,
@@ -27081,7 +27244,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 451,
+          lineNumber: 552,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27093,7 +27256,59 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 459,
+          lineNumber: 560,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 50,
+        textAnchor: "end",
+        y: size - 143,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 568,
+          columnNumber: 9
+        }
+      }, "2.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 50,
+        textAnchor: "end",
+        y: margin + 199,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 577,
+          columnNumber: 9
+        }
+      }, "5.3"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: size - 146,
+        x2: size / 2 + 35,
+        y2: size - 146,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 586,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: margin + 196,
+        x2: size / 2 + 35,
+        y2: margin + 196,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 594,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -27121,7 +27336,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 481,
+              lineNumber: 616,
               columnNumber: 13
             }
           })
@@ -27130,14 +27345,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 493,
+          lineNumber: 628,
           columnNumber: 7
         }
-      }, "This plot extracts the happiness scores for countries in the South Asia region and compares them to the distribution of happiness scores for the rest of the countries. Unlike the distribution of happiness scores for the North American and ANZ region, these happiness scores are more spread out. It is possible that the country with the score of 2.5 is an outlier and is the reason why the South Asia region had the lowest average happiness scores."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "This plot extracts the happiness scores for countries in the South Asia region and compares them to the distribution of happiness scores for the rest of the countries. The maximum and minimum values for the South Asia region are 5.3 and 2.5, respectively. Unlike the distribution of happiness scores for the North American and ANZ region, these happiness scores are more spread out. It is possible that the country with the score of 2.5 is an outlier and is the reason why the South Asia region had the lowest average happiness scores."), /*#__PURE__*/_reactDefault.default.createElement("h3", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 495,
+          lineNumber: 630,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Life Expectancy in South Asia"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -27149,7 +27364,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 496,
+          lineNumber: 631,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -27163,10 +27378,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 497,
+          lineNumber: 632,
           columnNumber: 9
         }
-      }, "48.5"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+      }, "49"), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: size / 2 - 20,
         textAnchor: "end",
         y: margin + 78,
@@ -27177,7 +27392,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 506,
+          lineNumber: 641,
           columnNumber: 9
         }
       }, "77"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27189,7 +27404,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 515,
+          lineNumber: 650,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27201,7 +27416,59 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 523,
+          lineNumber: 658,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 48,
+        textAnchor: "end",
+        y: size - 279,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 666,
+          columnNumber: 9
+        }
+      }, "52"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 48,
+        textAnchor: "end",
+        y: margin + 110,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 675,
+          columnNumber: 9
+        }
+      }, "71"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: size - 282,
+        x2: size / 2 + 35,
+        y2: size - 282,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 684,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: margin + 107,
+        x2: size / 2 + 35,
+        y2: margin + 107,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 692,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -27229,7 +27496,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 545,
+              lineNumber: 714,
               columnNumber: 13
             }
           })
@@ -27238,14 +27505,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 557,
+          lineNumber: 726,
           columnNumber: 7
         }
-      }, "This plot extracts the life expectancies for countries in the South Asia region and compares them to the distribution of life expectancy for the rest of the countries. Similar to the last plot, the distribution of life expectancy for the region is spread out. This could mean that for countries in the South Asia region, life expectancy does not necessarily relate to the overall happiness of the country."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+      }, "This plot extracts the life expectancies for countries in the South Asia region and compares them to the distribution of life expectancy for the rest of the countries. The maximum and minimum values for the South Asia region are 71 and 52, respectively. Similar to the last plot, the distribution of life expectancy for the region is spread out. This could mean that for countries in the South Asia region, life expectancy does not necessarily relate to the overall happiness of the country."), /*#__PURE__*/_reactDefault.default.createElement("h3", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 559,
+          lineNumber: 728,
           columnNumber: 7
         }
       }, "Highlighting the Distribution of Social Support Scores in South Asia"), /*#__PURE__*/_reactDefault.default.createElement("svg", {
@@ -27257,7 +27524,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 560,
+          lineNumber: 729,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -27271,7 +27538,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 561,
+          lineNumber: 730,
           columnNumber: 9
         }
       }, "0.46"), /*#__PURE__*/_reactDefault.default.createElement("text", {
@@ -27285,7 +27552,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 570,
+          lineNumber: 739,
           columnNumber: 9
         }
       }, "0.98"), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27297,7 +27564,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 579,
+          lineNumber: 748,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
@@ -27309,7 +27576,59 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 587,
+          lineNumber: 756,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 55,
+        textAnchor: "end",
+        y: size - 179,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 764,
+          columnNumber: 9
+        }
+      }, "0.46"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: size / 2 + 55,
+        textAnchor: "end",
+        y: margin + 143,
+        style: {
+          fontSize: 10,
+          fontFamily: "Gill Sans, san serif"
+        },
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 773,
+          columnNumber: 9
+        }
+      }, "0.91"), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: size - 182,
+        x2: size / 2 + 35,
+        y2: size - 182,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 782,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: size / 2 + 30,
+        y1: margin + 140,
+        x2: size / 2 + 35,
+        y2: margin + 140,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 790,
           columnNumber: 9
         }
       }), data.map((measurement, index) => {
@@ -27337,7 +27656,7 @@ try {
             __self: undefined,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 609,
+              lineNumber: 812,
               columnNumber: 13
             }
           })
@@ -27346,10 +27665,80 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 621,
+          lineNumber: 824,
           columnNumber: 7
         }
-      }, "This plot extracts the social support scores for countries in the South Asia region and compares them to the distribution of social support scores for the rest of the countries. Once again, the distribution of social support scores is spread out. Like the last plot, this could mean that the happiness of countries in South Asia is not strongly explained by the social support factor."))
+      }, "This plot extracts the social support scores for countries in the South Asia region and compares them to the distribution of social support scores for the rest of the countries. The maximum and minimum values for the South Asia region are 0.91 and 0.46, respectively. Once again, the distribution of social support scores is spread out. Like the last plot, this could mean that the happiness of countries in South Asia is not strongly explained by the social support factor."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 826,
+          columnNumber: 7
+        }
+      }, "Write-Up"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 828,
+          columnNumber: 7
+        }
+      }, "The questions I came up with are:"), /*#__PURE__*/_reactDefault.default.createElement("ol", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 830,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("li", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 831,
+          columnNumber: 9
+        }
+      }, "What are the distributions of happiness scores, life expectancy, and social support for all countries?"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 832,
+          columnNumber: 9
+        }
+      }, "How do the distributions of happiness scores, life expectancy, and social support for the North America and ANZ region compare to the distributions for the rest of the countries?"), /*#__PURE__*/_reactDefault.default.createElement("li", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 833,
+          columnNumber: 9
+        }
+      }, "How do the distributions of happiness scores, life expectancy, and social support for the South Asia region compare to the distribution for the rest of the countries?")), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 836,
+          columnNumber: 7
+        }
+      }, "The analysis process I used first involved exploring the data and doing research on how the data was collected. This included understanding where the life expectancy data came from and how the social support factor was measured. After the research, I narrowed down the scope of the dataset based on personal interest and decided what questions I wanted to answer with the visualizations. This is where I decided to focus on the happiness scores and the life expectancy and social support factors. My next step was to plan out the visualizations I wanted to create in order to answer the questions I came up with. Lastly, I created the visualizations, using 3 visualizations to address each of the questions. The primary data transformation I used was filtering the data based on the region and attribute I wanted to focus on."), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 838,
+          columnNumber: 7
+        }
+      }, "One of the lessons I learned was the importance of conducting research on the dataset and understanding where the data comes from. This was useful for the process of analyzing data and drawing conclusions from the visualizations because it helped to make sense of what the numbers meant. Another lesson I learned was the importance of looking at the size of the data. For example, there are only 4 countries in the North America and ANZ region so it is more difficult to draw conclusions on whether happiness scores are related to life expectancy and social support. For further analysis of the dataset, it may be helpful to group the North America and ANZ region with the Western Europe region, which had the second-highest average happiness score. Finally, another lesson I learned was to ask critical questions when looking at visualizations. For example, when I was looking at the distribution of scores in the South Asia region, I had to consider factors such as the possibility of outliers when trying to draw conclusions from the visualizations."), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 840,
+          columnNumber: 7
+        }
+      }, "Peer Feedback"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 841,
+          columnNumber: 7
+        }
+      }, "A feedback I implemented was adding headings to each visualization group to clarify which visualizations are answering which questions. Another feedback I implemented was adding axis labels for the last 6 visualizations to mark the maximum and minimum values for the highlighted data."))
     );
   };
   _s(App, "Jm65JCcgUFoenM4DufkEA80vRVI=", false, function () {
@@ -27365,206 +27754,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./hooks/useFetch":"5YU3r","d3-scale":"2UZ4X","d3-array":"7CLUA"}],"5gA8y":[function(require,module,exports) {
-"use strict";
-
-exports.interopDefault = function (a) {
-  return a && a.__esModule ? a : {
-    default: a
-  };
-};
-
-exports.defineInteropFlag = function (a) {
-  Object.defineProperty(a, '__esModule', {
-    value: true
-  });
-};
-
-exports.exportAll = function (source, dest) {
-  Object.keys(source).forEach(function (key) {
-    if (key === 'default' || key === '__esModule') {
-      return;
-    } // Skip duplicate re-exports when they have the same value.
-
-
-    if (key in dest && dest[key] === source[key]) {
-      return;
-    }
-
-    Object.defineProperty(dest, key, {
-      enumerable: true,
-      get: function () {
-        return source[key];
-      }
-    });
-  });
-  return dest;
-};
-
-exports.export = function (dest, destName, get) {
-  Object.defineProperty(dest, destName, {
-    enumerable: true,
-    get: get
-  });
-};
-},{}],"4Jj4f":[function(require,module,exports) {
-"use strict";
-var Refresh = require('react-refresh/runtime');
-function debounce(func, delay) {
-  if ("development" === 'test') {
-    return function (args) {
-      func.call(null, args);
-    };
-  } else {
-    var timeout = undefined;
-    return function (args) {
-      clearTimeout(timeout);
-      timeout = setTimeout(function () {
-        timeout = undefined;
-        func.call(null, args);
-      }, delay);
-    };
-  }
-}
-var enqueueUpdate = debounce(function () {
-  Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function (module) {
-  window.$RefreshReg$ = function (type, id) {
-    Refresh.register(type, module.id + ' ' + id);
-  };
-  window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function (module) {
-  if (isReactRefreshBoundary(module.exports)) {
-    registerExportsForReactRefresh(module);
-    if (module.hot) {
-      module.hot.dispose(function (data) {
-        if (Refresh.hasUnrecoverableErrors()) {
-          window.location.reload();
-        }
-        data.prevExports = module.exports;
-      });
-      module.hot.accept(function (getParents) {
-        var prevExports = module.hot.data.prevExports;
-        var nextExports = module.exports;
-        // Since we just executed the code for it, it's possible
-        // that the new exports make it ineligible for being a boundary.
-        var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-        // It can also become ineligible if its exports are incompatible
-        // with the previous exports.
-        // For example, if you add/remove/change exports, we'll want
-        // to re-execute the importing modules, and force those components
-        // to re-render. Similarly, if you convert a class component
-        // to a function, we want to invalidate the boundary.
-        var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-        if (isNoLongerABoundary || didInvalidate) {
-          // We'll be conservative. The only case in which we won't do a full
-          // reload is if all parent modules are also refresh boundaries.
-          // In that case we'll add them to the current queue.
-          var parents = getParents();
-          if (parents.length === 0) {
-            // Looks like we bubbled to the root. Can't recover from that.
-            window.location.reload();
-            return;
-          }
-          return parents;
-        }
-        enqueueUpdate();
-      });
-    }
-  }
-};
-function isReactRefreshBoundary(exports) {
-  if (Refresh.isLikelyComponentType(exports)) {
-    return true;
-  }
-  if (exports == null || typeof exports !== 'object') {
-    // Exit if we can't iterate over exports.
-    return false;
-  }
-  var hasExports = false;
-  var areAllExportsComponents = true;
-  let isESM = ('__esModule' in exports);
-  for (var key in exports) {
-    hasExports = true;
-    if (key === '__esModule') {
-      continue;
-    }
-    var desc = Object.getOwnPropertyDescriptor(exports, key);
-    if (desc && desc.get && !isESM) {
-      // Don't invoke getters for CJS as they may have side effects.
-      return false;
-    }
-    var exportValue = exports[key];
-    if (!Refresh.isLikelyComponentType(exportValue)) {
-      areAllExportsComponents = false;
-    }
-  }
-  return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-  var prevSignature = getRefreshBoundarySignature(prevExports);
-  var nextSignature = getRefreshBoundarySignature(nextExports);
-  if (prevSignature.length !== nextSignature.length) {
-    return true;
-  }
-  for (var i = 0; i < nextSignature.length; i++) {
-    if (prevSignature[i] !== nextSignature[i]) {
-      return true;
-    }
-  }
-  return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-  var signature = [];
-  signature.push(Refresh.getFamilyByType(exports));
-  if (exports == null || typeof exports !== 'object') {
-    // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-  }
-  let isESM = ('__esModule' in exports);
-  for (var key in exports) {
-    if (key === '__esModule') {
-      continue;
-    }
-    var desc = Object.getOwnPropertyDescriptor(exports, key);
-    if (desc && desc.get && !isESM) {
-      // Don't invoke getters for CJS as they may have side effects.
-      continue;
-    }
-    var exportValue = exports[key];
-    signature.push(key);
-    signature.push(Refresh.getFamilyByType(exportValue));
-  }
-  return signature;
-}
-function registerExportsForReactRefresh(module) {
-  var exports = module.exports, id = module.id;
-  Refresh.register(exports, id + ' %exports%');
-  if (exports == null || typeof exports !== 'object') {
-    // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-  }
-  let isESM = ('__esModule' in exports);
-  for (var key in exports) {
-    var desc = Object.getOwnPropertyDescriptor(exports, key);
-    if (desc && desc.get && !isESM) {
-      // Don't invoke getters for CJS as they may have side effects.
-      continue;
-    }
-    var exportValue = exports[key];
-    Refresh.register(exportValue, id + ' %exports% ' + key);
-  }
-}
-
-},{"react-refresh/runtime":"592mh"}],"5YU3r":[function(require,module,exports) {
+},{"react":"3b2NM","./hooks/useFetch":"5YU3r","d3-scale":"2UZ4X","d3-array":"7CLUA","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"5YU3r":[function(require,module,exports) {
 var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27864,7 +28054,206 @@ var define;
   });
 });
 
-},{}],"2UZ4X":[function(require,module,exports) {
+},{}],"5gA8y":[function(require,module,exports) {
+"use strict";
+
+exports.interopDefault = function (a) {
+  return a && a.__esModule ? a : {
+    default: a
+  };
+};
+
+exports.defineInteropFlag = function (a) {
+  Object.defineProperty(a, '__esModule', {
+    value: true
+  });
+};
+
+exports.exportAll = function (source, dest) {
+  Object.keys(source).forEach(function (key) {
+    if (key === 'default' || key === '__esModule') {
+      return;
+    } // Skip duplicate re-exports when they have the same value.
+
+
+    if (key in dest && dest[key] === source[key]) {
+      return;
+    }
+
+    Object.defineProperty(dest, key, {
+      enumerable: true,
+      get: function () {
+        return source[key];
+      }
+    });
+  });
+  return dest;
+};
+
+exports.export = function (dest, destName, get) {
+  Object.defineProperty(dest, destName, {
+    enumerable: true,
+    get: get
+  });
+};
+},{}],"4Jj4f":[function(require,module,exports) {
+"use strict";
+var Refresh = require('react-refresh/runtime');
+function debounce(func, delay) {
+  if ("development" === 'test') {
+    return function (args) {
+      func.call(null, args);
+    };
+  } else {
+    var timeout = undefined;
+    return function (args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(function () {
+        timeout = undefined;
+        func.call(null, args);
+      }, delay);
+    };
+  }
+}
+var enqueueUpdate = debounce(function () {
+  Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function (module) {
+  window.$RefreshReg$ = function (type, id) {
+    Refresh.register(type, module.id + ' ' + id);
+  };
+  window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function (module) {
+  if (isReactRefreshBoundary(module.exports)) {
+    registerExportsForReactRefresh(module);
+    if (module.hot) {
+      module.hot.dispose(function (data) {
+        if (Refresh.hasUnrecoverableErrors()) {
+          window.location.reload();
+        }
+        data.prevExports = module.exports;
+      });
+      module.hot.accept(function (getParents) {
+        var prevExports = module.hot.data.prevExports;
+        var nextExports = module.exports;
+        // Since we just executed the code for it, it's possible
+        // that the new exports make it ineligible for being a boundary.
+        var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+        // It can also become ineligible if its exports are incompatible
+        // with the previous exports.
+        // For example, if you add/remove/change exports, we'll want
+        // to re-execute the importing modules, and force those components
+        // to re-render. Similarly, if you convert a class component
+        // to a function, we want to invalidate the boundary.
+        var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+        if (isNoLongerABoundary || didInvalidate) {
+          // We'll be conservative. The only case in which we won't do a full
+          // reload is if all parent modules are also refresh boundaries.
+          // In that case we'll add them to the current queue.
+          var parents = getParents();
+          if (parents.length === 0) {
+            // Looks like we bubbled to the root. Can't recover from that.
+            window.location.reload();
+            return;
+          }
+          return parents;
+        }
+        enqueueUpdate();
+      });
+    }
+  }
+};
+function isReactRefreshBoundary(exports) {
+  if (Refresh.isLikelyComponentType(exports)) {
+    return true;
+  }
+  if (exports == null || typeof exports !== 'object') {
+    // Exit if we can't iterate over exports.
+    return false;
+  }
+  var hasExports = false;
+  var areAllExportsComponents = true;
+  let isESM = ('__esModule' in exports);
+  for (var key in exports) {
+    hasExports = true;
+    if (key === '__esModule') {
+      continue;
+    }
+    var desc = Object.getOwnPropertyDescriptor(exports, key);
+    if (desc && desc.get && !isESM) {
+      // Don't invoke getters for CJS as they may have side effects.
+      return false;
+    }
+    var exportValue = exports[key];
+    if (!Refresh.isLikelyComponentType(exportValue)) {
+      areAllExportsComponents = false;
+    }
+  }
+  return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+  var prevSignature = getRefreshBoundarySignature(prevExports);
+  var nextSignature = getRefreshBoundarySignature(nextExports);
+  if (prevSignature.length !== nextSignature.length) {
+    return true;
+  }
+  for (var i = 0; i < nextSignature.length; i++) {
+    if (prevSignature[i] !== nextSignature[i]) {
+      return true;
+    }
+  }
+  return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+  var signature = [];
+  signature.push(Refresh.getFamilyByType(exports));
+  if (exports == null || typeof exports !== 'object') {
+    // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+  }
+  let isESM = ('__esModule' in exports);
+  for (var key in exports) {
+    if (key === '__esModule') {
+      continue;
+    }
+    var desc = Object.getOwnPropertyDescriptor(exports, key);
+    if (desc && desc.get && !isESM) {
+      // Don't invoke getters for CJS as they may have side effects.
+      continue;
+    }
+    var exportValue = exports[key];
+    signature.push(key);
+    signature.push(Refresh.getFamilyByType(exportValue));
+  }
+  return signature;
+}
+function registerExportsForReactRefresh(module) {
+  var exports = module.exports, id = module.id;
+  Refresh.register(exports, id + ' %exports%');
+  if (exports == null || typeof exports !== 'object') {
+    // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+  }
+  let isESM = ('__esModule' in exports);
+  for (var key in exports) {
+    var desc = Object.getOwnPropertyDescriptor(exports, key);
+    if (desc && desc.get && !isESM) {
+      // Don't invoke getters for CJS as they may have side effects.
+      continue;
+    }
+    var exportValue = exports[key];
+    Refresh.register(exportValue, id + ' %exports% ' + key);
+  }
+}
+
+},{"react-refresh/runtime":"592mh"}],"2UZ4X":[function(require,module,exports) {
 var define;
 // https://d3js.org/d3-scale/ v3.3.0 Copyright 2021 Mike Bostock
 (function (global, factory) {
